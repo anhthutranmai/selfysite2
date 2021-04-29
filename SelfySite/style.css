@@ -1,0 +1,47 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar-brand{
+  font-weight: bold;
+} 
+
+.navbar a.active{
+font-weight: bold;
+}
+
+.container-fluid {
+  max-width: 100%;
+  background-image: url('images/deadcake.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  padding: 20vh;
+}
+
+.container-fluid h1 {
+  margin: auto;
+  text-align: center;
+}
+
+.container-fluid {
+  align-items: center;
+}
+
+@media (min-width: 576px) {
+  .container-fluid h1 {
+    margin-left: 2rem;
+    text-align: left;
+  }
+}
+
+.row {
+  padding: 2rem 10px;
+}
+
+.row img {
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
